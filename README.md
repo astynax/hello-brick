@@ -14,7 +14,7 @@ for widgets. User can switch between frames and scroll any of them separatedly.
 
 ### How to
 
-1. Build using a [stack]()
+1. Build using a [stack](https://docs.haskellstack.org/en/stable/README/)
 1. Run with `stack exec hello-brick`
 1. ...
 1. PROFIT

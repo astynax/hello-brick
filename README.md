@@ -2,19 +2,13 @@
 
 ### About
 
-This is my first experiment with a
-[brick](https://hackage.haskell.org/package/brick) library.
-
-An app should look like this:
+This is a small experiment with [brick](https://hackage.haskell.org/package/brick) library.
 
 ![screenshot](media/sshot.png)
 
-Each of app's frames shows a separate *viewport* - a scrollable container
-for widgets. User can switch between frames and scroll any of them separatedly.
+Each of the app's frames shows a separate *viewport* - a scrollable container
+for the containing widgets. User can switch between frames and scroll any of them separatedly.
 
 ### How to
 
-1. Build using a [stack](https://docs.haskellstack.org/en/stable/README/)
-1. Run with `stack exec hello-brick`
-1. ...
-1. PROFIT
+`cabal build` & `cabal run hello-brick`
